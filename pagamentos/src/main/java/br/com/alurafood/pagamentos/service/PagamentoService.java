@@ -50,7 +50,7 @@ public class PagamentoService {
         pagamento = pagamentoRepository.save(pagamento);
         return modelMapper.map(pagamento, PagamentoDto.class);
     }
-    
+
     public void excluirPagamento(Long id){
         pagamentoRepository.deleteById(id);
     }
