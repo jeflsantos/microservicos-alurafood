@@ -19,6 +19,7 @@ public class PagamentoService {
     private PagamentoRepository pagamentoRepository;
 
     @Autowired
+
     private ModelMapper modelMapper;
 
 
